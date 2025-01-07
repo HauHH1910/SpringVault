@@ -117,6 +117,7 @@ select profiles you want to choose, and click on the button `Reload All Maven Pr
 <br>
 <a href="https://imgur.com/OuKqNlG"><img src="https://i.imgur.com/OuKqNlG.png" title="source: imgur.com" /></a>
 2. Using CLI
+<br>
 Open Terminal:
 <br>
 
