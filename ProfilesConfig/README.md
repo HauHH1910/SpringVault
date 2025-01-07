@@ -110,7 +110,6 @@ Congratulation, successfully active profiles `dev`.
 
 ### How can we change profile
 1. Using IntelliJ
-<br>
 <a href="https://imgur.com/lq4vK5c"><img src="https://i.imgur.com/lq4vK5c.png" title="source: imgur.com" /></a>
 <br>
 select profiles you want to choose, and click on the button `Reload All Maven Projects`
