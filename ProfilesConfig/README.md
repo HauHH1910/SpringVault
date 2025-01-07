@@ -15,6 +15,7 @@ Profiles are a core feature of the framework — allowing us to map our beans to
 ## Setup
 When we start Spring Boot Application, we can see that Spring say that: No active profile set
 <a href="https://imgur.com/FC5pqxm"><img src="https://i.imgur.com/FC5pqxm.png" title="source: imgur.com" /></a>
+<br>
 So how can we activate profiles?
 
 ### Maven
@@ -117,13 +118,18 @@ select profiles you want to choose, and click on the button `Reload All Maven Pr
 <a href="https://imgur.com/OuKqNlG"><img src="https://i.imgur.com/OuKqNlG.png" title="source: imgur.com" /></a>
 2. Using CLI
 Open Terminal:
+<br>
 ```bash
 mvn clean install -P prod
 ```
+
+<br>
 `-P {profiles}`: this it for your profiles, depend on you what do you want to choose.
+<br>
 ```bash
 mvn clean install -P prod -DskipTests
 ```
+<br>
 `-DskipTests`: this it for skip test
 
 After running finish, we will have the `-jar` file in the `target` folder
