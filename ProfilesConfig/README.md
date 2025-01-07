@@ -119,18 +119,17 @@ select profiles you want to choose, and click on the button `Reload All Maven Pr
 2. Using CLI
 Open Terminal:
 <br>
+
 ```bash
 mvn clean install -P prod
 ```
+-P {profiles}: this it for your profiles, depend on you what do you want to choose.
+<br>
 
-<br>
-`-P {profiles}`: this it for your profiles, depend on you what do you want to choose.
-<br>
 ```bash
 mvn clean install -P prod -DskipTests
 ```
-<br>
-`-DskipTests`: this it for skip test
+-DskipTests: this it for skip test
 
 After running finish, we will have the `-jar` file in the `target` folder
 <br>
@@ -143,8 +142,10 @@ We can put `<finalName></finalName>` for your jar file
 ```maven
 <finalName>profiles-config</finalName>
 ```
-
-Running `mvn clean install -P prod` again.
+Running again.
+```bash 
+mvn clean install -P prod
+```
 <br>
 <a href="https://imgur.com/s8CEd7t"><img src="https://i.imgur.com/s8CEd7t.png" title="source: imgur.com" /></a>
 
